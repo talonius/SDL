@@ -1,0 +1,3 @@
+# The pins goldbox builds, in the format of Pool of Radiance's build/toolchain.
+sdl3=3.4.8
+recipe=1
