@@ -4,8 +4,8 @@
 #
 #   scripts/sdl3-setup.sh            build SDL3 for this host and the cross targets fpc-setup.sh builds compilers for
 #   scripts/sdl3-setup.sh --print    print the folder SDL3 is (or would be) installed in, and stop
-#   scripts/sdl3-setup.sh --pack DIR set up as usual, then pack each target into DIR as goldbox-toolchain publishes it
-#                                    (scripts/toolchain-release.sh)
+#   scripts/sdl3-setup.sh --pack DIR set up as usual, then pack each target into DIR as the talonius/SDL fork's
+#                                    goldbox release publishes it (scripts/toolchain-release.sh)
 #
 # build/toolchain (or the file TOOLCHAIN_FILE names) selects the SDL version and the recipe (recipe=N), the revision
 # of how this script builds it. Each target installs below $FPC_PREFIX/sdl3-<version>/<target>, using ~/fpc as the
